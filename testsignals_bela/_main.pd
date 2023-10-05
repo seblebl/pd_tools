@@ -1,4 +1,4 @@
-#N canvas 857 339 834 673 12;
+#N canvas 16 547 834 673 12;
 #X obj 109 69 adc~ 1 2;
 #X obj 277 76 adc~ 3 4 5 6;
 #X obj 447 70 adc~ 7 8 9 10;
@@ -8,6 +8,9 @@
 #X obj 432 258 dac~ 27 28 29 30;
 #X obj 117 259 osc~ 440;
 #X obj 262 258 phasor~ 0.5;
+#X text 559 258 scope;
+#X text 118 357 audio;
+#X text 232 358 ctrl;
 #X connect 0 0 6 0;
 #X connect 0 1 6 1;
 #X connect 2 0 6 2;
